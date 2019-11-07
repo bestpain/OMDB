@@ -68,7 +68,7 @@ const Details =()=>{
 useEffect(() => {
     if (query) {
       axios
-        .get("http://www.omdbapi.com/?", {
+        .get("https://www.omdbapi.com/?", {
           params: {
             apikey: "a2509b0f",
             i: query,
