@@ -14,9 +14,8 @@
   "devDependencies": {},
   "scripts": {
     "dev": "next",
-    "build": "next build",
-    "heroku-postbuild": "npm run build",
-    "start": "next start"
+    "build": "next build"
+   
   },
   "author": "",
   "license": "ISC"
