@@ -3,7 +3,6 @@ import SearchBar from '../components/SearchBar';
 import axios from 'axios'; 
 import MovieList from '../components/MovieList'
 import { useRouter } from 'next/router';
-import MovieDetails from '../components/MovieDetails'
 import React, { useState,useEffect } from 'react';
 import Link from 'next/link';
 
