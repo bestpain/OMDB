@@ -3,8 +3,7 @@ import SearchBar from '../components/SearchBar';
 import React from 'react';
 import axios from 'axios'; 
 import MovieList from '../components/MovieList'
-import onSearchSubmit from '../apis'
-import {Router,Route,Switch} from 'react-router-dom';
+
 
 class App extends React.Component{
 	state={result:{}};
