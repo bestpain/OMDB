@@ -10,7 +10,7 @@ class App extends React.Component{
 
 	 onSearchSubmit=(term)=>{
 		axios.get(
-			'http://www.omdbapi.com/?',
+			'https://www.omdbapi.com/?',
 				{
 					params:{
 						apikey:'a2509b0f',
